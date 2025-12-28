@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Official Zine Museum of Hydra</title>
+  <meta name="description" content="Hydra Zine Workshop 2025 by Zoe Lomax — Zine Digital Archive." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Password gate: appears only once per session (per browser), password=888 -->
+  <div id="gate" class="gate" aria-hidden="true">
+    <div class="gate-card" role="dialog" aria-modal="true" aria-label="Enter password">
+      <div class="gate-badge">Private</div>
+      <div class="gate-title">Official Zine Museum of Hydra</div>
+      <div class="gate-subtitle">Hydra Zine Workshop 2025 by Zoe Lomax</div>
+      <form id="gateForm" class="gate-form" autocomplete="off">
+        <label class="sr-only" for="pw">Password</label>
+        <input id="pw" name="pw" type="password" placeholder="Password" />
+        <button type="submit">Enter</button>
+      </form>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title">Official Zine Museum of Hydra</div>
+      <div class="brand-sub">Hydra Zine Workshop 2025 by Zoe Lomax</div>
+    </div>
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="process.html">Process</a>
+      <a href="archive.html">Zine Archive</a>
+    </nav>
+  </header>
+
+  <main id="content" class="wrap">
+    <section class="home">
+      <div class="card media-top">
+        <img src="assets/home/Top Photo Zine.jpeg" alt="Top Photo Zine" />
+      </div>
+
+      <div class="card text-card">
+        <h1 class="essay-title">Zine-Making as Resistance</h1>
+        <div class="essay-subtitle">Hydra 2025</div>
+        <p>The workshop investigated the act of making zines as a means of resisting the post-digital condition. The act of crafting was deeply rooted in slow, bodily, and material processes, as it encouraged artists to resist algorithmic culture.</p><p>“Zines” refer to self-published, non-commercial, often handmade magazines and have historically been used as channels for personal, political, and artistic expression in a variety of international settings, ranging from feminism in Latin America to samizdat distribution in Eastern Europe. In this era of digital dominance, “zines” have experienced a resurgence because of an increased hunger for touch and self-determination.</p><p>Folding, drawing, writing, and collaging enabled participants to experience their meaning-making processes as shaped by materiality. Slowing down emerged as a procedure, instead of an impediment, to involve reflection, decision, and attending to the process itself. Contrary to excluding digital media, there emerged a post-digital practice by alternatively engaging with analog and digital processes to reinvent perceptions of slowness, speed, and immateriality.</p><p>The physical workshop has since been translated into a digital archive. This archive does not replace the tactile experience but extends it, preserving traces of process while allowing the work to circulate beyond Hydra. In this hybrid form, the project resists online logics of consumption and metrics, prioritizing documentation, care, and continuity.</p><p>Together, the workshop and the archive illustrate how resistance in the digital age can be quiet, material, and deliberate, playing the physical practice against the digital dissemination in a productive tension.</p>
+      </div>
+
+      <div class="card media-bottom">
+        <img src="assets/home/Homepage Zine Photo 1.jpeg" alt="Homepage Zine Photo 1" />
+      </div>
+    </section>
+
+    <footer class="footer">Zoe Lomax, Hydra 2025, Zine Digital Archive</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
